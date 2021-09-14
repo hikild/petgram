@@ -10,7 +10,7 @@ function LoginForm() {
 
   function handleSubmit(e) {
     e.preventDefault();
-    fetch("https://dogsapi.origamid.dev/json/jwt-auth/v1/token", {
+    fetch("API/PETGRAM", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
