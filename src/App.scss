@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 1rem;
+}
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+button, input {
+    display: block;
+    font-size: 1rem;
+    font-family: 'Roboto';
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  // display: grid;
+  // grid-template:
+  //   "header" 40px
+  //   "body" 1fr
+  //   "footer";
+}
+
+.header {
+  grid-area: header;
+}
+
+.body {
+  grid-area: body;
+  height: 100%;
+}
+
+.footer {
+  grid-area: footer;
+}
